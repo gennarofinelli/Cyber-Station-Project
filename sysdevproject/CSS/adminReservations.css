@@ -1,0 +1,79 @@
+/* Styles for the admin page */
+
+#logo {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Cyberfunk';
+    display: inline-block;
+    line-height: 1; /* Ensures the text is aligned in the middle */
+}
+
+#logo .first-letter {
+    color: #ee05f2;
+}
+
+#logo .second-letter {
+    color: #0bbfbf;
+}
+
+.admin-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+table.reservations {
+    width: 50%;
+    margin: 20px auto; 
+    border-collapse: collapse;
+}
+
+table.reservations th, 
+table.reservations td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table.reservations thead tr {
+    background-color: #ee05f2;
+    color: white;
+}
+
+table.reservations tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.reservations tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table.reservations a {
+    color: #ee05f2;
+    text-decoration: none;
+}
+
+table.reservations a:hover {
+    text-decoration: underline;
+}
+
+table.reservations #actions {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    vertical-align: middle;
+}

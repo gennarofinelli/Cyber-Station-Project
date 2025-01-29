@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule "^([a-zA-Z]+)/?$" "index.php?lang=$1&controller=home&action=index"
+RewriteRule "^([a-zA-Z]+)/([a-zA-Z]+)/?$" "index.php?lang=$1&controller=$2&action=index"
+RewriteRule "^([a-zA-Z]+)/([a-zA-Z]+)/([0-9a-zA-Z]+)/?$" "index.php?lang=$1&controller=$2&action=$3"
+RewriteRule "^([a-zA-Z]+)/([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)/?$" "index.php?lang=$1&controller=$2&action=$3&id=$4"

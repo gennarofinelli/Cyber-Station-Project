@@ -1,0 +1,112 @@
+/* Styles for the admin page */
+
+#logo {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Cyberfunk';
+}
+
+#logo .first-letter {
+    font-size: 120%;
+    color: #ee05f2;
+}
+
+#logo .second-letter {
+    font-size: 120%;
+    color: #0bbfbf;
+}
+
+.admin-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+fieldset {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 0;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+fieldset input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    text-align: right;
+}
+
+.submit-button {
+    border: 0;
+    width: 90px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #0bbfbf;
+    color: white;
+}
+
+table.reservations {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.reservations th, 
+table.reservations td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table.reservations thead tr {
+    background-color: #ee05f2; /* Change this to your preferred color */
+    color: white;
+}
+
+table.reservations tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.reservations tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table.reservations a {
+    color: #ee05f2;
+    text-decoration: none;
+}
+
+table.reservations a:hover {
+    text-decoration: underline;
+}
+
+table.reservations #actions{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    vertical-align: middle;
+}

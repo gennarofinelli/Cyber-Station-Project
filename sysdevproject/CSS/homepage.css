@@ -1,0 +1,299 @@
+<<<<<<< HEAD
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Top Image */
+.top-image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 40px 0;
+}
+
+.how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+.feature-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Location Section */
+.location {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.location h2 {
+    margin-bottom: 20px;
+}
+
+.location-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between the images as needed */
+}
+
+.location-images img {
+    width: 48%; /* Adjust the width as needed */
+    max-width: 600px; /* Controls maximum width */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the images are cropped to fit */
+}
+
+/* Amenities Section */
+.amenities {
+    padding: 40px 0;
+    text-align: center;
+}
+
+@media(min-width: 750px) {
+    .amenities {
+        padding: 40px 0;
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.amenities h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.amenities p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.amenity-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 1px; 
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.amenity-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 220px;
+}
+
+.amenity-box img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.amenity-box p {
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Pricing Section */
+.pricing {
+    background-color: #f8f4f4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* About Section */
+.about {
+    background-color: #706969;
+    color: #fff;
+    padding: 40px 20px;
+}
+=======
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Top Image */
+.top-image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 40px 0;
+}
+
+.how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+.feature-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Location Section */
+.location {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.location h2 {
+    margin-bottom: 20px;
+}
+
+.location-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between the images as needed */
+}
+
+.location-images img {
+    width: 48%; /* Adjust the width as needed */
+    max-width: 600px; /* Controls maximum width */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the images are cropped to fit */
+}
+
+/* Amenities Section */
+.amenities {
+    padding: 40px 0;
+    text-align: center;
+}
+
+@media(min-width: 750px) {
+    .amenities {
+        padding: 40px 0;
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.amenities h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.amenities p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.amenity-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 1px; 
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.amenity-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 220px;
+}
+
+.amenity-box img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.amenity-box p {
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Pricing Section */
+.pricing {
+    background-color: #f8f4f4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* About Section */
+.about {
+    background-color: #706969;
+    color: #fff;
+    padding: 40px 20px;
+}
+>>>>>>> b26f94e82d814920f1f26c3b3b28f6aa15835434

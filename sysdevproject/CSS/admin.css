@@ -1,0 +1,260 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    overflow: hidden; 
+}
+
+.notification {
+    margin-bottom: 15px;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    visibility: hidden; 
+}
+
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1; 
+}
+
+
+.hexagon-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+.hexagon {
+    width: 100px;
+    height: 69.28px;
+    background-color: #e0e0e0;
+    margin: 34.64px 0;
+    position: absolute;
+    opacity: 0.2; 
+    transform: rotate(90deg) skewY(30deg) scale(1);
+}
+
+.hexagon::before,
+.hexagon::after {
+    content: "";
+    width: 120px;
+    height: 69.28px;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hexagon::before {
+    transform: translateY(-69.28px) rotate(-60deg);
+}
+
+.hexagon::after {
+    transform: translateY(69.28px) rotate(60deg);
+}
+
+.hexagon:nth-child(1) {
+    top: 60%;
+    left: 40%;
+}
+
+.hexagon:nth-child(2) {
+    top: 70%;
+    left: 45%;
+}
+
+.hexagon:nth-child(3) {
+    top: 65%;
+    left: 50%;
+}
+
+.hexagon:nth-child(4) {
+    top: 75%;
+    left: 55%;
+}
+
+.hexagon:nth-child(5) {
+    top: 80%;
+    left: 60%;
+}
+
+h2 {
+    font-family: 'Bahnschrift', Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: 2px solid #EE05F2;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgba(0, 0, 0, 0.5); 
+    font-style: italic;
+}
+
+input[type="text"]:focus::placeholder,
+input[type="password"]:focus::placeholder {
+    color: transparent; 
+}
+
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #00d1b2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00b89a;
+}
+
+
+p {
+    color: red;
+    font-size: 14px;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Bahnschrift', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.header p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.admin-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.reservations,
+.reservation-info {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 45%;
+}
+
+.reservation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reservation-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #EE05F2;
+    border-radius: 5px;
+    font-family: 'Bahnschrift', Arial, sans-serif;
+}
+
+.reservation-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-info label {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Bahnschrift', Arial, sans-serif;
+}
+
+.reservation-info input[type="text"],
+.reservation-info input[type="email"],
+.reservation-info input[type="date"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #EE05F2;
+    border-radius: 5px;
+    font-family: 'Bahnschrift', Arial, sans-serif;
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #EE05F2;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.edit-btn,
+.delete-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Bahnschrift', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #00d1b2;
+}
+
+.edit-btn:hover {
+    background-color: #00b89a;
+}
+
+.delete-btn {
+    background-color: #f5365c;
+}
+
+.delete-btn:hover {
+    background-color: #c12f4b;
+}

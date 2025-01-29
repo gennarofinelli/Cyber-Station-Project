@@ -1,0 +1,267 @@
+<<<<<<< HEAD
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+}
+
+@media(max-width: 400px) {
+    .contact-form {
+        width: 300px;
+    }
+}
+
+.contact-form label {
+    font-size: 14px;
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form select,
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form select {
+    background-color: #fff;
+    padding-right: 30px;
+}
+
+.contact-form .name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form .name-fields input {
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form .button{
+    text-align: right;
+}
+
+.contact-form .submit-btn {
+    border: 0;
+    width: 90px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #0bbfbf; 
+    color: white; 
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #009f9f;
+}
+
+.contact-form .recaptcha {
+    margin-top: 10px;
+}
+
+#reminder {
+    text-align: left;
+}
+
+.asterix-higlighted {
+    color: red;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+footer a {
+    color: #00bfbf;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+=======
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+}
+
+@media(max-width: 400px) {
+    .contact-form {
+        width: 300px;
+    }
+}
+
+.contact-form label {
+    font-size: 14px;
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form select,
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form select {
+    background-color: #fff;
+    padding-right: 30px;
+}
+
+.contact-form .name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form .name-fields input {
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form .button{
+    text-align: right;
+}
+
+.contact-form .submit-btn {
+    border: 0;
+    width: 90px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #0bbfbf; 
+    color: white; 
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #009f9f;
+}
+
+.contact-form .recaptcha {
+    margin-top: 10px;
+}
+
+#reminder {
+    text-align: left;
+}
+
+.asterix-higlighted {
+    color: red;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+footer a {
+    color: #00bfbf;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+>>>>>>> b26f94e82d814920f1f26c3b3b28f6aa15835434
